@@ -33,15 +33,14 @@ for round in range(1,17):
         QuestionList.append(TempStor[0])
         AnswerList.append(TempStor[1])
     TempStor.clear
-print(len(QuestionList))
 
 # With the list of the questions and answers, you probably already have a method of implimentation
 # Here's a simple example of what you could do with it
 
-for x in range(len(QuestionList)):
-    f=open('Set 11 %s' % topic, 'a' )
-    f.write(QuestionList[x]+'\n'+AnswerList[x])
-f.close
+#for x in range(len(QuestionList)):
+#    f=open('Set 11 %s' % topic, 'a' )
+#    f.write(QuestionList[x]+'\n'+AnswerList[x])
+#f.close
 
 # Easy way to print all quesitons of a subject into a file
 # Obviously with the lists you can implement it into your bot reletively easy I hope c:
